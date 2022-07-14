@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: rgba(139, 149, 169, 0.624);
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+
+.ImageHeader{
+    background-image: url(https://images.unsplash.com/photo-1504221507732-5246c045949b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    background-size:cover;
+    background-clip:padding-box;
+    padding:100px;
+    border:solid black;
+    border: radius 20px;
+}
+
+.NavBar{
+    padding:16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #383E4C;
+}
+
+a:any-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#HomepageLink{
+    padding:15px 25px;
+    border: 2px solid grey; 
+}
+
+#ContactMeLink{
+    padding:15px 25px;
+    border:2px solid grey;
+}
+
+#ExternalLink{
+    padding: 15px 25px;
+    border:2px solid grey;
+}
+
+
+
+#SocialMedia{
+}
+
+/* 
+    #AUDIImage{
+     align-items: center;
+}*/
+
+
+#PersonalInterest{
+    background-origin:padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+
+.Section1{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+    border: rgba(0, 0, 0, 0);
+    border-style: solid;
+    height: 100px;
+    padding-left: 15px;
+    padding-right:15px;
+ }
+
+ .FirstButton{
+    background-color: #383E4C;
+    width: 100px;
+    border: solid gray;
+    border-radius: 0px;
+    color: white;
+ }
