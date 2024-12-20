@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #ffffff;
+    color: #000000;
     background-color: #f5272700;
 }
 
@@ -43,7 +43,7 @@ body {
 .main-content {
     flex: 2;
     min-width: 300px;
-    background: #fff;
+    background: #000000;
     margin: 10px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
