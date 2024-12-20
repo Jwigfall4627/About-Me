@@ -27,12 +27,12 @@ h2{
     padding:16px;
     display: flex;
     justify-content: space-between;
-    background-color: #383E4C;
+    background-color: #6b6b6b00;
+    border-style: solid;
 }
 
 a:any-link{
-    color: aliceblue;
-    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 #HomepageLink{
@@ -50,15 +50,6 @@ a:any-link{
     border:2px solid grey;
 }
 
-
-
-#SocialMedia{
-}
-
-/* 
-    #AUDIImage{
-     align-items: center;
-}*/
 
 
 #PersonalInterest{
@@ -81,9 +72,10 @@ a:any-link{
  }
 
  .FirstButton{
-    background-color: #383E4C;
+    background-color: #383e4c00;
     width: 100px;
     border: solid gray;
     border-radius: 0px;
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
  }
